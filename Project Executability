@@ -1,1 +1,40 @@
+##  Command-Line Execution
+
+The **Smart Study Planner** is designed to run completely through the **command line/terminal**, so no GUI-based setup is required.
+
+Students can use the terminal to add subjects, create study tasks, set priorities, view their study plan, and track completed tasks.
+
+###  How to Run
+
+1. Make sure **Java JDK** is installed.
+2. Open the terminal in the project folder.
+3. Compile the program:
+
+```bash
+javac Main.java
+```
+
+4. Run the application:
+
+```bash
+java Main
+```
+
+5. The **Smart Study Planner** will start in the terminal and display a simple menu. Users can select options by entering the required number or information.
+
+### Example
+
+```text
+===== SMART STUDY PLANNER =====
+
+1. Add Subject
+2. Add Study Task
+3. View Study Plan
+4. Mark Task as Completed
+5. Exit
+
+Enter your choice:
+```
+
+The project does not depend on any GUI software, making it easy for an evaluator to **clone, compile, and run directly from a terminal**.
 
