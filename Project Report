@@ -1,1 +1,90 @@
 
+1.PROJECT OVERVIEW 
+
+Managing multiple subjects, upcoming tests, and daily homework can get overwhelming fast. Most of us write down study goals on random
+sticky notes or try to remember everything in our heads, which often leads to missed deadlines and poor time management.
+
+The Smart Study Planner is a lightweight command-line tool written in Java. It gives students one centralized place to store their
+subjects, add pending study tasks, set task priorities, track what's finished, and watch their overall completion percentage grow.
+Because it runs straight from the terminal, there is no messy setup required.
+
+2.KEY OBJECTIVE AND FEATURES
+
+The main goal of this application is to make daily study tracking effortless while putting fundamental Java concepts into practice.
+Manage Subjects: Add and keep a list of your current semester courses (e.g., Java, Operating Systems, Computer Networks).
+
+Create Prioritized Tasks: File specific tasks under a target subject and tag them with a priority level (High, Medium, Low).
+
+Track Completion: Update a task's status from Pending to Completed with a single command.
+
+Progress Analytics: Get instant stats showing total tasks, finished work, pending work, and your overall completion rate (%).
+
+3.HOW IT WORKS (APPLICATION FLOW)1.Initialize Menu:Program Startup.The application launches in the terminal and presents a numbered
+option menu to the user.2.Capture User Choice:Input Validation.The program prompts the user to pick an action (1–7). Input is safe-checked 
+using try-catch blocks to prevent crashes if letters are typed instead of numbers.3.Process Request:Execution Phase.Based on the menu selection, the app creates objects, modifies data inside an ArrayList, or calculates overall statistics.4.Display Result & Loop:Feedback.The requested output (or success message) is shown, and the app routes back to the main menu until the user chooses to exit.
+
+4.ADVANTAGES
+
+Simple and easy to use
+Helps organize study tasks
+Saves time in planning
+Provides task priority
+Shows completed and pending work
+Tracks study progress
+Runs directly from the command line
+Uses basic and important Java concepts
+
+5.WORKING OF THE PROJECT
+
+5.1Start
+  
+5.2Display Main Menu
+  
+
+5.3Choose an Option
+  
+5.4Add Subject / Add Task / View Plan
+  
+5.5Update Task Status
+  
+5.6Calculate Progress
+  
+5.7Display Result
+  ↓
+5.8Continue or Exit
+
+
+6.SYSTEM REQUIREMENT
+
+Hardware Requirements
+*Computer or laptop
+*Minimum 2 GB RAM
+*Basic storage space
+Software Requirements
+*Java JDK
+*Command Prompt / Terminal
+*Any Java-supported code editor or IDE
+*Git/GitHub for project submission
+
+7.CONCLUSION
+
+The Smart Study Planner is a simple Java project created to solve a common problem faced by students—organizing their
+study activities and keeping track of their progress.
+
+Through this project, I learned how to use Java, OOP concepts, ArrayList, methods, loops, conditions, and exception
+handling in a practical application.
+
+Although the current version is basic, it provides a good foundation for developing a more advanced study-management
+system in the future.
+
+
+
+
+
+
+
+
+
+
+
+
